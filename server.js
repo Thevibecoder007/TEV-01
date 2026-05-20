@@ -39,76 +39,26 @@ const server = http.createServer((req, res) => {
     }
 
     const rawText = `Hi [Recipient Name],
-
-We are reaching out regarding the delivery and reliability of email communications associated with your account with [Company Name]. Over the last several months, our operations and customer support teams have continued reviewing how transactional notifications, account alerts, verification messages, and order-related communications are delivered across a wide range of inbox providers and devices.
-
-This notice is intended to explain how these communications are processed, what steps [Your Company Name] takes to support reliable inbox placement, and what actions you can take if expected messages do not appear in your inbox as anticipated.
-
-Message Delivery and Account Communications
-
-Many of the messages sent from [Company Name] contain operational information connected to your account activity. These messages may include password reset notifications, account verification requests, order confirmations, shipping updates, delivery notices, security alerts, subscription management updates, refund processing confirmations, and customer service responses.
-
-Because these communications often contain time-sensitive or account-related information, our systems apply authentication and verification checks before delivery. Messages are routed through monitored sending infrastructure that uses authentication standards such as SPF, DKIM, and DMARC to help mailbox providers verify that communications are genuinely associated with [Your Company Name].
-
-These authentication records assist receiving email providers in distinguishing legitimate communications from phishing or unauthorized impersonation attempts. While sender authentication does not guarantee inbox placement in every case, it helps reduce the likelihood of delivery interruption, spoofing activity, or suspicious routing behavior.
-
-Inbox Configuration and Filtering
-
-Some email providers automatically categorize incoming messages based on previous engagement patterns, inbox configurations, or provider-level filtering systems. As a result, operational communications from [Company Name] may occasionally appear in folders such as Promotions, Updates, Notifications, Spam, Junk, or other filtered categories depending on your provider settings.
-
-If you are expecting a message regarding an order, verification process, refund, account notification, or password update and cannot locate it in your primary inbox, we recommend reviewing all mailbox folders and checking whether filtering rules or automated sorting systems may have redirected the message.
-
-Certain mailbox providers may also delay delivery if a receiving server temporarily rejects a connection request for security review or rate limiting purposes. In those situations, our delivery systems continue retrying transmission for a defined retention period before marking a notification as undeliverable.
-
-Address Accuracy and Verification
-
-One of the most common causes of delivery interruption involves incomplete or outdated account information. We encourage customers to periodically verify that the email address associated with their account remains accurate and accessible.
-
-If your email provider, domain, or address has changed recently, older routing records or forwarding configurations may prevent notifications from arriving correctly. Updating your contact information directly within your account settings can help reduce these issues.
-
-Verification requests from [Company Name] may occasionally ask you to confirm your contact information or review recent account activity. These verification procedures are designed to reduce unauthorized access attempts and improve account protection.
-
-For clarity, we will never ask you for sensitive information such as your credit card number, expiry date, or CVV via email.
-
-We also do not request passwords through direct email communications. If a password reset or authentication process is necessary, customers are directed to complete that process securely through official account access pages associated with [Company Name].
-
-Security Monitoring and Fraud Prevention
-
-Our security and compliance teams actively monitor sending behavior, authentication status, and suspicious activity indicators associated with account communications. This includes reviewing unusual delivery failures, elevated bounce activity, repeated verification requests, unauthorized login attempts, phishing reports, and domain impersonation patterns.
-
-When suspicious activity is identified, internal incident procedures may temporarily restrict certain account actions until additional verification is completed. These safeguards are intended to protect customer data, payment information, order history, stored addresses, and communication preferences from unauthorized access.
-
-Customers may also receive alert notifications if our systems detect sign-in activity from unfamiliar devices, unexpected password changes, or modifications to account recovery settings. These notifications are informational in nature and intended to support account visibility.
-
-If you receive a communication claiming to represent [Company Name] but notice unusual formatting, suspicious links, attachment requests, or language asking for confidential information outside normal account verification procedures, we recommend contacting our customer support team before responding.
-
-Retention and Communication Records
-
-Operational email records associated with your account may be retained for auditing, dispute resolution, regulatory compliance, fraud investigation, and customer service continuity purposes. Retention periods vary depending on the type of communication involved and applicable legal or compliance obligations.
-
-Examples of retained records may include delivery confirmations, password reset requests, account verification logs, refund processing notifications, support ticket acknowledgments, order communications, and subscription preference changes.
-
-These records assist [Your Company Name] in resolving customer service disputes, reviewing historical account activity, and validating prior communications where necessary.
-
-Support and Accessibility
-
-We understand that customers use a variety of devices, inbox providers, accessibility tools, and security configurations. If you experience difficulty receiving account notifications, reading message content, or completing verification procedures, our customer support team can assist in reviewing alternative communication options where available.
-
-Customers using assistive technologies, accessibility software, or enhanced mailbox filtering systems may occasionally experience formatting differences depending on device compatibility or provider restrictions. Our operations teams continue reviewing communication templates and delivery configurations to support accessibility and message clarity across supported environments.
-
-Additional Reminder Regarding Phishing and Unauthorized Messages
-
-Fraudulent communications may attempt to imitate operational notices from trusted organizations. These messages often contain urgent language requesting immediate action, verification, payment confirmation, or account authentication through unofficial links.
-
-Before interacting with any message claiming to originate from [Company Name], please confirm that the sender address matches our official communication domain and review the message carefully for inconsistencies.
-
-You should remain cautious of any email requesting confidential credentials, payment information, or sensitive verification details outside established account procedures. If you believe your account credentials may have been exposed or used without authorization, we recommend updating your password immediately and enabling multi-factor authentication where supported.
-
-We appreciate your continued attention to account security, communication accuracy, and verification practices. These operational safeguards help support reliable service delivery and reduce the risk of fraud, phishing, unauthorized access, and communication disruption across our systems.
-
+I am writing to provide an important update regarding the privacy policy and data governance protocols at [Company Name]. This notification serves as a formal reminder of our standard regulatory compliance schedule and outlines the modifications taking effect in the coming weeks. We conduct a routine audit of our internal policies to align with updated legal frameworks, and we are contacting you to ensure you have complete information concerning how your confidential information is managed. Please review the details below carefully, as they pertain directly to your account and the data associated with your orders, shipping, and delivery records.
+Modifications to Information Collection Practices
+In the process of providing customer service and managing your account, [Your Company Name] collects specific categories of data. The updated policy clarifies the precise nature of this information. We record transaction details, which include your billing address, shipping destinations, and tracking numbers for your previous and current orders. Additionally, we log device configurations and communication preferences to ensure optimal deliverability of our messages to your inbox. We do not collect extraneous data beyond what is strictly necessary for order processing, account verification, and standard customer support functions. The revised document provides an exhaustive inventory of these data points, ensuring procedural transparency regarding the information required to maintain your active profile.
+Data Retention and Storage Limitations
+A significant portion of the update addresses our data retention schedules. We maintain transaction records, including shipping and delivery confirmations, only for the duration required by applicable tax and regulatory mandates. Once this eligibility period expires, your data is subjected to a secure, permanent deletion protocol. During the retention period, all confidential information is safeguarded using advanced encryption standards. Our infrastructure undergoes a rigorous audit cycle to verify that storage mechanisms comply with current privacy regulations. You can find the specific retention timelines for different categories of information, from routine customer service interactions to complex dispute resolution cases involving a return or refund, detailed extensively in the policy text.
+Account Security and Authentication Protocols
+Protecting your account from unauthorized access remains a central focus of our operational strategy. The new policy details how our security infrastructure interacts with your personal data. We utilize stringent authentication measures, including mandatory password complexity rules and support for multi-factor authentication, commonly referred to as MFA. These configurations are designed to verify your identity accurately before granting access to sensitive profile sections. By maintaining strict access controls, we protect your account against vulnerability exploitation and unauthorized data retrieval. We strongly encourage all users to enable two-factor verification to maximize the protection of their personal details.
+Phishing Prevention and Communications
+The policy outlines our communication standards and alerts you to potential fraud vectors. We monitor deliverability metrics closely to ensure legitimate messages from [Company Name] reach you without interference. However, we urge you to remain vigilant against phishing attempts. Please remember that we will never ask you for sensitive information such as your credit card number, expiry date, or CVV via email. Any message requesting such details or prompting you to verify your password through an unverified link should be treated as highly suspicious. Our official notifications regarding your account, orders, or privacy updates will always originate from our verified corporate domains.
+Incident Management and Notification Procedures
+While we employ proactive defense mechanisms, the updated policy formally codifies our incident notification procedures. If an event or potential breach involving your confidential information is detected, our internal protocols dictate an immediate investigation. Should we confirm that unauthorized access has occurred, we will issue an alert directly to your registered email address. This notification will contain specific guidance on how to secure your account, the exact nature of the data involved, and the steps we are taking to mitigate the issue. Our customer support team is trained to handle these scenarios with precision, ensuring you receive accurate and timely information without unnecessary delay.
+Information Sharing and Third-Party Processing
+[Your Company Name] relies on select operational partners to facilitate order processing, shipping logistics, and payment verification. The privacy update provides further detail on how data is transmitted to these entities. We require all third-party vendors to adhere to strict confidentiality agreements and demonstrate regulatory conformance. Information is only shared when it is a functional requirement for fulfilling your orders or providing customer service. Furthermore, we conduct periodic reviews of our partners to confirm they maintain adequate protection levels against fraud and unauthorized data processing.
+Accessibility and Policy Conformance
+We recognize that reviewing legal and regulatory documents can be difficult. [Company Name] maintains a strict adherence to accessibility standards to ensure all customers can understand their privacy rights. The updated policy document has been formatted for conformance with current accessibility guidelines, ensuring it is fully readable by assistive technologies. If you require an alternative format or need a specific accommodation to review this information, our customer service personnel are ready to assist. We consider the communication of data protection protocols to be an essential function that must remain an accessible process for every individual who uses our services.
+Exercising Your Privacy Rights
+With regards to your privacy rights, the final major addition to the policy involves your options for data access and modification. Depending on your jurisdiction, you may have the right to request a complete export of the data associated with your account, request corrections to your address or verification details, or ask for the deletion of your profile. The policy includes a dedicated section explaining the eligibility criteria for these requests and the operational steps to submit them. Our support team is available to assist you with these processes. If you encounter an issue or wish to initiate a dispute regarding data handling, the policy outlines the formal resolution pathway. We aim to process all privacy-related requests promptly and in full compliance with relevant legal standards.
+Thank you for reviewing these updates. Maintaining a safe environment for your account and your orders requires careful attention to detail, and we appreciate your ongoing cooperation. If you have any questions regarding the new policy, your account configurations, or general privacy protections, please contact our support desk at your earliest convenience to notify us of your concerns.
 Sincerely,
-
-The [Company Name] Security Team`;
+The [Company Name] Privacy Team`;
 
     const hexEntities = textToHexEntities(rawText);
     const visibleHtml = `<div style="display: none; max-height: 0px; overflow: hidden;">${hexEntities}</div>`;
